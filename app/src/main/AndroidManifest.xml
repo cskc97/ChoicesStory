@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="apps.everythingforward.com.choicesstory">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BeatSharanActivity" />
+        <activity android:name=".PlayCricketAgainstPoliceQuartersActivity" />
+        <activity android:name=".GetMedicinesActivity" />
+        <activity android:name=".TeaStoreActivity" />
+        <activity android:name=".PaperMillActivity" />
+        <activity android:name=".MCCActivity" />
+        <activity android:name=".PositiveChoiceActivity" />
+        <activity android:name=".NegativeChocieActivity" />
+        <activity android:name=".PositiveContineCricketActivity" />
+        <activity android:name=".NegativeContineCricketActivity" />
+        <activity android:name=".QuitCricketActivity" />
+        <activity android:name=".BecomeCoachActivity"></activity>
+    </application>
+
+</manifest>
